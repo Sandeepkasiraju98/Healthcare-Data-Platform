@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Department</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Delete Department</h2>
+        <form action="/delete_department" method="post">
+            <div class="form-group">
+                <label for="department_number">Department Number:</label>
+                <input type="number" id="department_number" name="department_number" required>
+            </div>
+            <input type="submit" value="Delete Department">
+        </form>
+    </div>
+</body>
+</html>

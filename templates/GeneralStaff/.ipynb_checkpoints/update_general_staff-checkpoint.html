@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update General Staff</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Update General Staff</h2>
+    <form action="/update_general_staff" method="post">
+        <div class="form-group">
+            <label for="employee_id">Staff ID:</label>
+            <input type="number" id="employee_id" name="employee_id" required>
+        </div>
+        <div class="form-group">
+            <label for="job_description">Job Description:</label>
+            <input type="text" id="job_description" name="job_description" required>
+        </div>
+        <div class="form-group">
+            <label for="work_hours">Work Hours:</label>
+            <input type="number" id="work_hours" name="work_hours" required>
+        </div>
+
+        <input type="submit" value="Update General Staff">
+    </form>
+</body>
+</html>

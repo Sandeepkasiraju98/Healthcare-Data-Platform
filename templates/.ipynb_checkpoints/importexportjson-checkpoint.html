@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+    <title>JSON Import/Export</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            width: 50%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="file"], input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>JSON Import/Export</h2>
+    <form action="/importexportjson" method="post" enctype="multipart/form-data">
+        
+        <div>
+            <label for="action">Select Action:</label>
+            <select id="action" name="action">
+                <option value="import">Import</option>
+                <option value="export">Export</option>
+            </select>
+             <h2>Select a Collection</h2>
+            <select name="collection_name" id="collection_name">
+            {% for name in collection_names %}
+                <option value="{{ name }}">{{ name }}</option>
+            {% endfor %}
+        </select>
+        </div>
+        <div>
+            <label for="import_json">Import JSON File:</label>
+            <input type="file" id="import_json" name="import_json">
+        </div>
+        <div>
+            <label for="export_json">Export JSON File:</label>
+            <input type="file" id="export_json" name="export_json">
+        </div>
+        <div>
+            <input type="submit" value="Perform Action">
+        </div>
+    </form>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
+</html>

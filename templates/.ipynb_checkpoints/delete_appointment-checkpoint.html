@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Appointment</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+</head>
+<body>
+    <h2>Delete Appointment</h2>
+    <form action="/delete_appointment" method="post">
+        <div>
+            <label for="appointment_id">Appointment ID:</label>
+            <input type="text" id="appointment_id" name="appointment_id" required>
+        </div>
+        <div>
+            <input type="submit" value="Delete Appointment">
+        </div>
+    </form>
+</body>
+</html>

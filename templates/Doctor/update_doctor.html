@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Doctor</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <h2>Add Doctor</h2>
+    <form action="/update_doctor" method="post">
+        <div class="form-group">
+            <label for="doctor_id">Doctor ID:</label>
+            <input type="number" id="doctor_id" name="doctor_id" required>
+        </div>
+        <div class="form-group">
+            <label for="employee_id">Employee ID:</label>
+            <input type="number" id="employee_id" name="employee_id" required>
+        </div>
+        <div class="form-group">
+            <label for="specialization">Specialization:</label>
+            <input type="text" id="specialization" name="specialization" required>
+        </div>
+
+        <input type="submit" value="Update Doctor">
+    </form>
+</body>
+</html>

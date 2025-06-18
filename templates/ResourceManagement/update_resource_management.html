@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Resource Management</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Update Resource Management</h2>
+        <form action="/update_resource" method="post">
+            <div class="form-group">
+                <label for="resource_id">Resource ID:</label>
+                <input type="number" id="resource_id" name="resource_id" required>
+            </div>
+            <div class="form-group">
+                <label for="resource_type">Resource Type:</label>
+                <input type="text" id="resource_type" name="resource_type">
+            </div>
+            <div class="form-group">
+                <label for="resource_name">Resource Name:</label>
+                <input type="text" id="resource_name" name="resource_name">
+            </div>
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <input type="text" id="status" name="status">
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location">
+            </div>
+            <div class="form-group">
+                <label for="admin_id">Admin ID:</label>
+                <input type="number" id="admin_id" name="admin_id">
+            </div>
+            <input type="submit" value="Update Resource Management">
+        </form>
+    </div>
+</body>
+</html>

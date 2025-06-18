@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Nurse</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <h2>Update Nurse</h2>
+    <form action="/update_nurse" method="post">
+        <div class="form-group">
+            <label for="employee_id">Nurse ID:</label>
+            <input type="number" id="employee_id" name="employee_id" required>
+        </div>
+        <div class="form-group">
+            <label for="shift">Shift:</label>
+            <input type="text" id="shift" name="shift">
+        </div>
+        <div class="form-group">
+            <label for="qualifications">Qualifications:</label>
+            <input type="text" id="qualifications" name="qualifications">
+        </div>
+
+        <input type="submit" value="Update Nurse">
+    </form>
+</body>
+</html>

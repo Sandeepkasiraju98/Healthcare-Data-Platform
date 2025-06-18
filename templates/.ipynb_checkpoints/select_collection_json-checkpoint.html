@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Collection</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+</head>
+<body>
+    <h2>Select a Collection</h2>
+    <form action="/selectimportexportjson" method="post">
+        <select name="collection_name" id="collection_name">
+            {% for name in collection_names %}
+                <option value="{{ name }}">{{ name }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
