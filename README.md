@@ -69,12 +69,3 @@ docker-compose up --build
 - Rapid prototyping and testing of health informatics models
 - Real-time monitoring and KPI tracking in health operations
 
-## 🤝 Contributing
-
-Contributions are welcome! Please see the [CONTRIBUTING.md] guide for feature requests, reporting issues, or submitting pull requests.
-
-## 📄 License
-
-MIT License. See `LICENSE` for details.
-
-**Keywords:** Healthcare, EHR, Data Platform, Analytics, Python, R, Big Data, Spark, Hadoop, Containerization, Cloud, Power BI
