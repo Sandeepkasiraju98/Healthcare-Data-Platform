@@ -59,8 +59,6 @@ docker-compose up --build
 # Step 3: Setup environment variables (see .env.example)
 ```
 
-> For detailed instructions, API documentation, and sample analyses, see the `/docs` folder.
-
 ## 🌐 Use Cases
 
 - Healthcare data simulation and benchmarking
