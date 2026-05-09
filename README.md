@@ -270,38 +270,10 @@ Healthcare-Data-Platform/
 └── screenshots/
 ```
 
----
-
-## 🖼️ Screenshots
-
-### Flask API Running on AWS EC2
-![Flask API](screenshots/flask_api_ec2.png)
-
-### MongoDB — 55,500 Records Loaded
-![MongoDB](screenshots/mongodb_55500_records.png)
-
-### Docker Containers Running
-![Docker](screenshots/docker_all_containers.png)
-
-### Power BI Dashboard
-![PowerBI](screenshots/powerbi_dashboard.png)
-
-### R Statistical Charts
-![Billing](screenshots/Averge%20billing%20by%20condition%20with%20error%20bars.png)
-![Heatmap](screenshots/Heatmap%20Medical%20Condition%20vs%20Test%20Results.png)
-![Admission](screenshots/Admission%20Type%20by%20Condition%20(Stacked%20Bar).png)
-
----
-
 ## 👤 Author
 
 **Sandeep Kasiraju**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sandeepkasiraju98)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio.com)
-
----
 
 <div align="center">
 ⭐ If you found this project useful, please give it a star!
