@@ -30,7 +30,7 @@
 
 ## 📌 Overview
 
-This platform simulates a real-world **Electronic Health Record (EHR) system**, built with a modern data stack. It covers the full data engineering lifecycle — from raw CSV ingestion to cloud-hosted REST APIs, NoSQL storage, distributed analytics, BI dashboards, and statistical validation in R.
+This platform simulates a real-world **Electronic Health Record (EHR) system**, built with a modern data stack. It covers the full data engineering lifecycle, from raw CSV ingestion to cloud-hosted REST APIs, NoSQL storage, distributed analytics, BI dashboards, and statistical validation in R.
 
 > Built to demonstrate production-level data engineering, cloud deployment, and analytics skills across the full stack.
 
